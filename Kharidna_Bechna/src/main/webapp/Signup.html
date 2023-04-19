@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup Page</title>
+</head>
+<body>
+	<h1>-:Signup Page:-</h1>
+	<form action="signup" method="post">
+	Name:- <input type="text" name="name" placeholder="Enter the Name"> <br><br>
+	Email:- <input type="email" name="email" placeholder="Enter the Email"> <br><br>
+	Phone no.:- <input type="tel" name="mobile"placeholder="Enter the Phone no." pattern="[0-9]{10}"> <br><br>
+	Password:- <input type="password" name="password" placeholder="Enter the Password"> <br><br>
+	Gender:-
+	<input type="radio" name="gender" value="male">Male 
+	<input type="radio" name="gender" value="female">Female 
+	<input type="radio" name="gender" value="male">Others<br><br>
+	Date of Birth:- <input type="date" name="dob"><br>
+	Address:- <br> <textarea rows="5" cols="30" name="address"></textarea><br>
+	<button type="rest">Cancel</button>
+	<button>Signup</button> <br>
+	<a href="Login.html">Already have Account? Click here to Login</a>
+	</form>
+	<a href="Home.jsp">Go To Home Page</a>
+	<style>
+	h1{
+	text-align:center;
+	color: blue;
+	}
+form{
+	padding-left: 40%;
+	padding-bottom: 10px;
+	border: 5px solid red;
+	border-radius: 5px
+	
+	}
+	
+	</style>
+</body>
+</html>
